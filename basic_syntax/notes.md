@@ -129,9 +129,8 @@ x + 10 where x = 5
 
 ###Infix operators/functions
 
-|============================================================|
 |Operator | Name      | Purpose/application                  |
-|============================================================|
+|:---:    | :---      | :---                                 |
 |+        | plus      | addition                             |
 |-        | minus     | substraction                         |
 |\*       | asterisk  | multiplication                       |
@@ -142,7 +141,6 @@ x + 10 where x = 5
 |mod      | modulo    | remainder after division             |
 |quot     | quotient  | integral division, round towards zero|
 |rem      | remainder | remainder after division             |
-|============================================================|
 
 ```hs
 9 / 5

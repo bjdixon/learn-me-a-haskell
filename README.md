@@ -12,7 +12,7 @@ sudo docker run -t -i fpco/stack-build
 ```
 
 ##Use another user other than root
-``sh
+```sh
 groupadd wheel
 useradd USERNAME
 passwd USERNAME
