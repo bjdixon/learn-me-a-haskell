@@ -1,4 +1,6 @@
-##REPL
+##Basic syntax
+
+###REPL
 
 **:load FILENAME** loads the code from the source file
 **:module** unloads the file 
@@ -80,6 +82,8 @@ times = x * y
 times
 -- 30
 ```
+
+Using let and where in modules binds variables locally. Omitting let/where binds the variables to global/top level scope
 
 ###Lambdas
 
