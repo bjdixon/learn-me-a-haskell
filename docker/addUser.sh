@@ -8,3 +8,6 @@ echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 su - $USERNAME
 sudo mkdir $HOMEDIR
 sudo chown $USERNAME $HOMEDIR
+cd $HOMEDIR
+stack setup
+sudo chown -R $USERNAME /root/
