@@ -9,5 +9,6 @@ su - $USERNAME
 sudo mkdir $HOMEDIR
 sudo chown $USERNAME $HOMEDIR
 cd $HOMEDIR
-stack setup
-sudo chown -R $USERNAME /root/
+sudo stack setup
+sudo chown -R $USERNAME /root/.stack
+sudo chown $USERNAME /root
