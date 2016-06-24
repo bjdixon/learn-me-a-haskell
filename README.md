@@ -1,28 +1,14 @@
 #Startup
 we use stack in a docker image
 
-##Start docker daemon
-```sh
-sudo docker daemon -g /home/bjdixon/dev/docker/
-```
-
 ##Use stack-build image
 ```sh
-sudo docker run -t -i fpco/stack-build
+sudo docker build -t="hsk" ./docker/
 ```
 
-##Use another user other than root
+##Login to container
 ```sh
-groupadd wheel
-useradd USERNAME
-passwd USERNAME
-usermod -aG wheel USERNAME
-echo '%wheel ALL=(ALL) ALL' >> /etc/sudoers
-su USERNAME
-cd /home
-sudo mkdir USERNAME
-sudo chown USERNAME USERNAME
-cd USERNAME
+sudo docker run -t -i -u="haskellUser" -w="/home/haskellUser" hsk
 ```
 
 ##Use the repl
