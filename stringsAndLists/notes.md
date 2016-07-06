@@ -9,19 +9,6 @@ let y = "c"
 
 x is of type Char where as y is of type list of Chars
 
-###Types
-
-```hs
-main :: IO ()
-str :: String
-i :: Integer
-c :: Char
-```
-
-- main has type IO. 
-- str has type String
-- i has type Integer
-
 ###Printing
 
 ```hs
