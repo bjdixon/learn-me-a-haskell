@@ -75,7 +75,7 @@ Functions that can be applied to variables of different types are called polymor
 
 ###Typeclasses
 
-If a type is part of a typeclassit implements the behavior a typeclass describes.
+If a type is part of a typeclass it implements the behavior a typeclass describes.
 
 **Basic typeclasses**
 
